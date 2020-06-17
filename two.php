@@ -7,5 +7,6 @@
  */
 public $arr = [];
 function getData($id){
-    return $arr[$id];
+    $arrw = [];
+    return $arrw[$id];
 }
