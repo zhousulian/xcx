@@ -9,4 +9,6 @@
 $date = date("Y-m-d");
 if($date > now()){
     echo "dsjklfds";
+}else{
+    echo $date();
 }
