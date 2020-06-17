@@ -7,7 +7,9 @@
  */
 function getData($id){
     $arrw = [];
+    if (!empty($id)){
+        $id = 1;
+    }
     return $arrw[$id];
 }
-
 ?>
